@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>This Day</title>
+</head>
+<body class="bg-white">
+    <header class="w-full bg-[#f5f5f5] flex items-center justify-between shadow-lg h-[10vh] md:top-0 md:left-0 md:fixed md:px-[10vw]">
+        <div class="flex items-center justify-center p-5">
+            <img src="./Images//Logo.jpg" alt="" srcset="" class="h-10 w-10">
+        </div>
+        <nav class="md:flex items-center justify-center hidden">
+            <ul class="flex items-center justify-center gap-4 list-none">
+                <li class="text-lg font-semibold capitalize cursor-pointer">Home</li>
+                <li class="text-lg font-semibold capitalize cursor-pointer">About Us</li>
+                <li class="text-lg font-semibold capitalize cursor-pointer">Contact Us</li>
+            </ul>
+        </nav>
+        <div class="p-3 flex items-center justify-center md:hidden">
+            <img src="./Images//menu.png" alt="menu icon" class="h-6 w-6">
+        </div>
+    </header>
+
+    <header class="w-full bg-white flex flex-col items-start justify-start h-fit py-3 px-3">
+        <nav class="flex items-center justify-center">
+            <ul class="w-full flex flex-col items-center justify-start gap-4 list-none">
+                <li class="text-lg font-semibold capitalize cursor-pointer w-full text-left">Home</li>
+                <li class="text-lg font-semibold capitalize cursor-pointer w-full text-left">About Us</li>
+                <li class="text-lg font-semibold capitalize cursor-pointer w-full text-left">Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="heroSection flex  flex-col h-[100vh] w-full items-center justify-center py-[50px] px-[10vw]">
+        <p class="text-[#009D01] text-xl py-3">WELCOME HOME</p>
+        <h1 class="font-extrabold text-4xl w-full capitalize text-wrap text-center md:text-7xl md:w-[1/4] md:px-10">this is the day the lord has made.</h1>
+        <div class="py-5 flex flex-col items-center justify-center gap-4 mt-5">
+            <p class="text-xl capitalize w-full text-center md:text-2xl">Join us on sunday 21st-22nd july</p>
+            <p class="text-xl capitalize">6:00pm to 3:00am</p>
+        </div>
+        <div class="flex-col flex items-center justify-center gap-6 mt-5">
+            <button title="CTA" class="cursor-pointer w-[200px] h-[50px] text-2xl rounded-full text-white text-center capitalize outline-none bg-[#009D01]">Visit Us</button>
+            <button title="CTA" class="cursor-pointer w-[200px] h-[50px] text-2xl rounded-full text-white text-center capitalize outline-none border-2 border-[#009D01]">lern more</button>
+        </div>
+    </main>
+    <section class="h-[60%] w-full bg-black py-[50px] flex flex-col items-center justify-center">
+        <h1 class="md:w-[50%] w-[90%] text-left text-xl my-3 text-white font-bold md:text-5xl leading-15">"Why would God want to be with people like us? There's only one answer: love. Extravagant love. Our goal is to share this love with as many people as possible."</h1>
+    </section>
+
+    <aside class="flex flex-col items-center justify-between px-[10vw] gap-4 h-[100vh] py-[50px] md:flex-row">
+        <article class="w-full flex flex-col items-start h-full justify-center mt-[100px] md:w-1/2 md:justify-start">
+            <h1 class="font-bold capitalize w-full text-left text-6xl">the evangelist</h1>
+            <div class="flex flex-col gap-6 mt-5 w-3/4">
+                <p class="text-[#8D8D8D] text-md">Pastors Joe and Becky Keenan are the founders and Senior Pastors of Living Hope Houston, a non-denominational evangelical church.</p>
+                <p class="text-[#8D8D8D] text-md">Together, we’re striving to become a strong church founded on Biblical principles, where there’s relevant teaching, heartfelt worship, honest friendships, constant prayer, and compassionate care for those in need.
+                </p>
+
+                <button title="CTA" class="cursor-pointer w-[200px] h-[50px] text-2xl rounded-full text-white text-center capitalize outline-none bg-[#009D01]">Learn more</button>
+            </div>
+        </article>
+        <img src="./Images/pastor.jpg" alt="" class="h-[550px] w-2/4 rounded-md">
+    </aside>
+
+    <section class="bg-[#FFF9F1] py-[50px] w-full px-[10vw] flex-col flex items-center justify-center">
+        <h1 class="font-bold text-6xl text-[#000000c] py-3">Get Connected</h1>
+        <main class="flex gap-4 w-full items-center justify-between py-5 mt-5">
+            <div class="flex flex-col items-center justify-center m-5">
+                <div class="w-[100px] flex items-center justify-center bg-[#005D1C] p-5 rounded-md cursor-pointer hover:scale-110 transition-all duration-500">
+                    <img src="./Images/donation.png" alt="connect picture" class="w-[70px] h-[70px]">
+                </div>
+                <h1 class="font-bold text-2xl py-3 my-3">Donate</h1>
+                <p class="text-center text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tenetur asperiores blanditiis eum dolore suscipit magnam aspernatur placeat eos.</p>
+            </div>
+            <div class="flex flex-col items-center justify-center m-5">
+                <div class="w-[100px] flex items-center justify-center bg-[#005D1C] p-5 rounded-md cursor-pointer hover:scale-110 transition-all duration-500">
+                    <img src="./Images/emoji.png" alt="connect picture" class="w-[70px] h-[70px]">
+                </div>
+                <h1 class="font-bold text-2xl py-3 my-3">Volunteer</h1>
+                <p class="text-center text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tenetur asperiores blanditiis eum dolore suscipit magnam aspernatur placeat eos.</p>
+            </div>
+            <div class="flex flex-col items-center justify-center m-5">
+                <div class="w-[100px] flex items-center justify-center bg-[#005D1C] p-5 rounded-md cursor-pointer hover:scale-110 transition-all duration-500">
+                    <img src="./Images/like.png" alt="connect picture" class="w-[70px] h-[70px]">
+                </div>
+                <h1 class="font-bold text-2xl py-3 my-3">Follow Us</h1>
+                <p class="text-center text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tenetur asperiores blanditiis eum dolore suscipit magnam aspernatur placeat eos.</p>
+            </div>
+        </main>
+    </section>
+    <footer class="flex flex-col justify-between w-full bg-white py-[50px] px-[7vw]">
+        <main class="flex gap-2 items-center justify-between w-full">
+            <div class="w-1/4 flex flex-col items-start justify-ceneter gap-4">
+                <div class="flex items-center justify-center">
+                    <img src="./Images//Logo.jpg" alt="" srcset="" class="h-[70px] w-[70px]">
+                </div>
+                <p class="text-lg capitalize my-3">We are dedicated to bringing people closer to God.</p>
+                <div class="flex gap-4 items-center justify-center">
+                    <img src="./Images/facebook-app-symbol.png" alt="facebook-app-symbol" class="h-7 w-7">
+                    <img src="./Images/instagram.png" alt="instagram icon" class="h-7 w-7">
+                </div>
+            </div>
+            <aside class="flex gap-4 items-start justify-start w-[75%] ml-7">
+                <div class="gap-4 w-1/3 flex flex-col items-center justify-start mx-2">
+                    <h1 class="w-full font-bold text-3xl py-2 text-left">Ministries</h1>
+                    <ul class="w-full flex flex-col items-start justify-center gap-2">
+                        <li class="capitalize text-md">Outreach</li>
+                        <li class="capitalize text-md">School and scholarship</li>
+                        <li class="capitalize text-md">Logistic business company</li>
+                        <li class="capitalize text-md">Empowerment scheme</li>
+                        <li class="capitalize text-md">Real Estate agency.</li>
+                    </ul>
+                </div>
+
+                <div class="gap-4 w-1/3 flex flex-col items-center justify-start mx-2">
+                    <h1 class="w-full font-bold text-3xl py-2 text-left">Quick Links</h1>
+                    <ul class="w-full flex flex-col items-start justify-center gap-2">
+                        <li class="capitalize text-md">Home</li>
+                        <li class="capitalize text-md">About Us</li>
+                        <li class="capitalize text-md">Contact Us</li>
+                    </ul>
+                </div>
+
+                <div class="gap-4 w-1/3 flex flex-col items-center justify-start mx-2">
+                    <h1 class="w-full font-bold text-3xl py-2 text-left">Get In Touch</h1>
+                    <ul class="w-full flex flex-col items-start justify-center gap-2">
+                        <li class="capitalize text-md">8012 Fuqua St. Houston, TX 77075</li>
+                        <li class="capitalize text-md">Email: contact@livinghopehouston.com</li>
+                        <li class="capitalize text-md">Phone: 713-991-5683</li>
+                    </ul>
+                </div>
+            </aside>
+        </main>
+        <article></article>
+    </footer>
+</body>
+</html>
