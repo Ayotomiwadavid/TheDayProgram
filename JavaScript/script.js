@@ -7,9 +7,9 @@ menuToggler.addEventListener("click", () => {
   // Check if the sidebar has the 'active' class
   if (sideBar.classList.contains("active")) {
     // Change the image to 'close-icon.png' when the sidebar is active
-    menuToggler.src = "./images/close.png";
+    menuToggler.src = "../images/close.png";
   } else {
     // Change the image back to 'menu-icon.png' when the sidebar is not active
-    menuToggler.src = "./images/menu.png";
+    menuToggler.src = "../images/menu.png";
   }
 });
