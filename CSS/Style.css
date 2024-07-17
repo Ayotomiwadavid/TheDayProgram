@@ -5,8 +5,16 @@
 }
 
 .heroSection{
-    background: url('../Images/heroBanner.png');
+    background: url('../Images/newBg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.afterHero{
+    background: url('../Images/EvanGelical\ Outreach.jpg');
+}
+
+.overLay{
+    background: rgba(255, 253, 208, 0.5);
 }
